@@ -15,7 +15,7 @@ export default function Navbar() {
             <Link to='/lessons'>
                 <Typography color="white" variant="h3">Baking Lessons</Typography>
             </Link>
-            <Link to='/test'>
+            <Link to='/takeaway'>
                 <Typography color="white" variant="h3">Baking Takeaway</Typography>
             </Link>
         </div>
