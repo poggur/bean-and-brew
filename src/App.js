@@ -12,7 +12,7 @@ function App() {
 
 
     <BrowserRouter>
-      <div className='w-full h-screen bg-coffee-background bg-cover bg-fixed'>
+      <div>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage />}/>
