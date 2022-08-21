@@ -21,9 +21,9 @@ export default function Lessons() {
                     <Card image="./young-woman-eating-croissants-cafe.jpg" title="Beginner Pastry Baking class" text="Learn how to make delectable pastries with this pastry baking class lead by a professional." price="Only £80 / Lesson" />
                 </Slider>
                 <div className='m-5 bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg'>
-                    <Typography color="white" variant="h5" align='center'>What Payment options are accepted?</Typography>
+                    <Typography color="white" variant="h5" align='center' className="pt-3">What Payment options are accepted?</Typography>
                     <Typography color="white" variant="h6" align='center'>We accept many different payment types</Typography>
-                    <Typography color="white" variant="h6" align='center'>
+                    <Typography color="white" variant="h6" align='center' className="pb-3">
                         Different payment options we accept are:
                         <Typography>Cash</Typography>
                         <Typography>Debit and Credit cards</Typography>
@@ -33,14 +33,14 @@ export default function Lessons() {
                 </div>
 
                 <div className='m-5 bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg'>
-                    <Typography color="white" variant="h5" align='center'>How can i pay for a class?</Typography>
-                    <Typography color="white" variant="h6" align='center'>You can either order the class online or book a class in person.</Typography>
+                    <Typography color="white" variant="h5" align='center' className="pt-3">How can i pay for a class?</Typography>
+                    <Typography color="white" variant="h6" align='center' className="pb-3">You can either order the class online or book a class in person.</Typography>
                 </div>
 
                 <div className='m-5 bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg'>
-                    <Typography color="white" variant="h5" align='center'>Where do the lessons take place?</Typography>
+                    <Typography color="white" variant="h5" align='center' className="pt-3">Where do the lessons take place?</Typography>
                     <Typography color="white" variant="h6" align='center'>The lessons take place at our "learning studio".</Typography>
-                    <Typography color="white" variant="h6" align='center'>You can find one of our learning studio by using the map below.</Typography>
+                    <Typography color="white" variant="h6" align='center' className="pb-3">You can find one of our learning studio by using the map below.</Typography>
                 </div>
                 <div className="w-[65.5rem] h-[26rem] bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
                     <Typography color="white" variant="h5" align='center'>Insert map</Typography>
