@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 
 export default function Homepage() {
     return (
-        <div className="w-full h-screen bg-coffee-background bg-cover bg-fixed p-5 flex justify-center">
+        <div className="w-full h-[100%] bg-coffee-background bg-cover bg-fixed p-5 flex justify-center">
             <div className='flex flex-col'>
                 <Typography color="white" variant="h1" className="p-10 flex self-center">Home</Typography>
                 <Link to='/coffee'>
@@ -18,7 +18,7 @@ export default function Homepage() {
                 </Link>
                 <Link to='/takeaway'>
                     <div className="bg-takeaway bg-cover h-[30rem] w-[1200px] p-4 m-3">
-                        <Typography color="white" variant="h4">Explore our Coffee menu</Typography>
+                        <Typography color="white" variant="h4">Learn about our Takeaways</Typography>
                     </div>
                 </Link>
             </div>
