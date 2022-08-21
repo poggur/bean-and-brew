@@ -11,16 +11,16 @@ export default function Navbar() {
             </div>
             <div className=" h-30  w-full flex flex-row flex items-center flex justify-between pl-5 pr-5">
                 <Link to='/'>
-                    <Typography color="white" variant="h3">Home</Typography>
+                    <Typography color="white" variant="h4">Home</Typography>
                 </Link>
                 <Link to='/coffee'>
-                    <Typography color="white" variant="h3">Coffee Shops</Typography>
+                    <Typography color="white" variant="h4">Coffee Shops</Typography>
                 </Link>
                 <Link to='/lessons'>
-                    <Typography color="white" variant="h3">Baking Lessons</Typography>
+                    <Typography color="white" variant="h4">Baking Lessons</Typography>
                 </Link>
                 <Link to='/takeaway'>
-                    <Typography color="white" variant="h3">Takeaway</Typography>
+                    <Typography color="white" variant="h4">Takeaway</Typography>
                 </Link>
             </div>
         </div>
