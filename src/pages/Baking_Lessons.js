@@ -1,8 +1,15 @@
-import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 import Card from '../components/card';
 import Slider from '../components/Slider';
+import { Map, Marker } from 'pigeon-maps';
 import { useState } from 'react';
+
+function CustomMap() {
+    const coordinates1 = [53.81568624667117, -1.5659869511426943];
+    return <Map height={400} defaultCenter={coordinates1} defaultZoom={11}>
+        <Marker width={50} anchor={coordinates1} />
+    </Map>
+}
 
 export default function Lessons() {
     const [index, setIndex] = useState(0);
@@ -43,7 +50,7 @@ export default function Lessons() {
                     <Typography color="white" variant="h6" align='center' className="pb-3">You can find one of our learning studio by using the map below.</Typography>
                 </div>
                 <div className="w-[65.5rem] h-[26rem] bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
-                    <Typography color="white" variant="h5" align='center'>Insert map</Typography>
+                    <CustomMap/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Navbar from './components/navbar';
@@ -8,17 +9,20 @@ import Lessons from './pages/Baking_Lessons';
 import Takeaway from './pages/Baking_Takeaway';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Bean & Brew";
+  }, []);
+
   return (
-
-
     <BrowserRouter>
       <div>
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />}/>
-          <Route path="/coffee" element={<CoffeeShop/>}/>
-          <Route path="/lessons" element={<Lessons/>}/>
-          <Route path="/takeaway" element={<Takeaway/>}/>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/coffee" element={<CoffeeShop />} />
+          <Route path="/lessons" element={<Lessons />} />
+          <Route path="/takeaway" element={<Takeaway />} />
         </Routes>
       </div>
     </BrowserRouter>

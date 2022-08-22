@@ -1,5 +1,20 @@
 import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
+import { Map, Marker } from 'pigeon-maps';
+
+function CustomMap() {
+    const coordinates1 = [53.800779016661664, -1.5653234930554385];
+    const coordinates2 = [53.791634678093864, -1.5339056516824792];
+    const coordinates3 = [53.99319710629154, -1.5428450704261958];
+    const coordinates4 = [53.9772565224383, -1.5284257441563223];
+    const center = [53.898966258644506, -1.5186313255056725];
+    return <Map height={400} defaultCenter={center} defaultZoom={10}>
+        <Marker width={50} anchor={coordinates1} />
+        <Marker width={50} anchor={coordinates2} />
+        <Marker width={50} anchor={coordinates3} />
+        <Marker width={50} anchor={coordinates4} />
+    </Map>
+}
 
 export default function Takeaway() {
     return (
@@ -10,6 +25,8 @@ export default function Takeaway() {
                     <div className="bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
                         <Typography color="white" variant="h5" className="p-3" align='center'>Where can you order takeaways?</Typography>
                         <Typography color="white" variant="h6" className="p-1" align='center'>You can order a takeaway from one of our many coffee shop locations.</Typography>
+                        <Typography color="white" variant="h6" className="p-1" align='center'>Use the map below to find your nearest location</Typography>
+                        <CustomMap/>
                     </div>
 
                     <div className="bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
