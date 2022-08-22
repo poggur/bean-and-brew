@@ -26,7 +26,7 @@ export default function CoffeeShop() {
             <div className='flex flex-col'>
                 <div className='w-[68rem]'>
                     <Typography color="white" variant="h1" className="p-10" align='center'>Coffee Shops</Typography>
-                    <Typography color="white" variant="h5" align='center'>Our coffee selection</Typography>
+                    <Typography color="white" variant="h5" align='center'>Our coffee and smoothie selection</Typography>
                     <Slider setIndex={setIndex}>
                         <Card image="./coffee_images/espresso.jpg" title="Espresso" text="Perfectly extracted, this short, aromatic, intense drink contains all the best flavour from our coffee beans." price="£3.49" />
                         <Card image="./coffee_images/cappuccino.jpg" title="Cappuccino" text="Made with our aromatic Espresso, frothy milk and decadent chocolate dusting." price="£4.99" />
@@ -35,7 +35,16 @@ export default function CoffeeShop() {
                         <Card image="./coffee_images/frappe.jpg" title="Frappe" text="Get your coffee fix in the form of a creamy, milky, ice-cold frappé, with a fluffy light topping and a sprinkle of chocolate dusting." price="£4.99" />
                         <Card image="./coffee_images/iced-coffee.jpg" title="Iced Espresso" text="Chilled milk over ice, capped with freshly shaken espresso." price="£4.99" />
                         <Card image="./coffee_images/pumpkin-spice.jpg" title="Pumpkin spice latte" text="espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin-pie spices." price="£4.99" />
+                        <Card image="./coffee_images/fruit-smoothie.jpg" title="StrawBerry Smoothie" text="A delicious fruit smoothie containing strawberries, raspberries and blackberries." price="£1.99" />
+                        <Card image="./coffee_images/banana-smoothie.jpg" title="Banana Cinnamon Smoothie" text="A delicious fruit smoothie containing bananas, topped with a sprinkle of cinnamon." price="£1.99" />
+                        <Card image="./coffee_images/exotic-smoothie.jpg" title="Exotic Pineapple Smoothie" text="A delicious fruit smoothie containing pineapple, kiwi and Lychee berries." price="£1.99" />
+
                     </Slider>
+
+                    <div className="bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
+                        <Typography color="white" variant="h5" align='center'>Another way to order</Typography>
+                        <Typography color="white" variant="h6" align='center'>As well as serving our existing coffees and smoothies, we also take orders containing your specifications for our coffee. This allows you to create your own drink using our Fair-Trade coffee.</Typography>
+                    </div>
 
                     <Typography color="white" variant="h5" align='center'>Our Food selection</Typography>
                     <Slider setIndex={setIndex}>

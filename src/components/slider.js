@@ -10,7 +10,7 @@ export default function (props) {
         </div>
     }
     const PrevArrow = ({ onClick }) => {
-        return <div className={`${arrowCss} left-1`} onClick={onClick}>
+        return <div className={`${arrowCss} left-0`} onClick={onClick}>
             <FaArrowLeft />
         </div>
     }
