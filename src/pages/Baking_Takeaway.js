@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 import { Map, Marker } from 'pigeon-maps';
 
