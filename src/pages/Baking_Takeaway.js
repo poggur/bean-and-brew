@@ -54,7 +54,7 @@ export default function Takeaway() {
                         </Typography>
                     </div>
                     <div className="bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg p-5 m-5 flex items-center flex-col text-center">
-                        <img src="/takeaway.jpg" className="w-[100%] h-[100%] m-3"></img>
+                        <img src="./other_images/takeaway.jpg" className="w-[100%] h-[100%] m-3"></img>
                     </div>
                 </div>
             </div>

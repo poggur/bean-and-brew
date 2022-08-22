@@ -21,11 +21,11 @@ export default function Lessons() {
                     <Typography color="white" variant="h1" className="p-10 flex self-center">Baking Lessons</Typography>
                 </div>
                 <Slider setIndex={setIndex}>
-                    <Card image="./grangmother-teaching-her-granddaughter-make-homemade-sweets.jpg" title="Beginner Cake Baking class" text="Learn how to make cakes with this baking class lead by a professional." price="Only £80 / Lesson" />
-                    <Card image="./wooden-table-with-cup-coffee.jpg" title="Beginner Coffee Brewing class" text="Learn how to make excellent coffee using locally sourced coffee beans lead by a professional." price="Only £40 / Lesson" />
-                    <Card image="./takeaway.jpg" title="Beginner Cake Baking class" text="Learn how to make cakes with this baking class lead by a professional." price="Only £75 / Lesson" />
-                    <Card image="./bingu.jpg" title="Beginner Bingus Baking class" text="Learn how to make cakes with this baking class lead by a professional. In this class, you'll learn how to different sweet treats such as cakes and muffins" price="Only £60 / Lesson" />
-                    <Card image="./young-woman-eating-croissants-cafe.jpg" title="Beginner Pastry Baking class" text="Learn how to make delectable pastries with this pastry baking class lead by a professional." price="Only £80 / Lesson" />
+                    <Card image="./other_images/grangmother-teaching-her-granddaughter-make-homemade-sweets.jpg" title="Beginner Cake Baking class" text="Learn how to make cakes with this baking class lead by a professional." price="Only £80 / Lesson" />
+                    <Card image="./other_images/wooden-table-with-cup-coffee.jpg" title="Beginner Coffee Brewing class" text="Learn how to make excellent coffee using locally sourced coffee beans lead by a professional." price="Only £40 / Lesson" />
+                    <Card image="./other_images/takeaway.jpg" title="Beginner Cake Baking class" text="Learn how to make cakes with this baking class lead by a professional." price="Only £75 / Lesson" />
+                    <Card image="./other_images/bingu.jpg" title="Beginner Bingus Baking class" text="Learn how to make cakes with this baking class lead by a professional. In this class, you'll learn how to different sweet treats such as cakes and muffins" price="Only £60 / Lesson" />
+                    <Card image="./other_images/young-woman-eating-croissants-cafe.jpg" title="Beginner Pastry Baking class" text="Learn how to make delectable pastries with this pastry baking class lead by a professional." price="Only £80 / Lesson" />
                 </Slider>
                 <div className='m-5 bg-[#475569] bg-opacity-30 backdrop-blur-md rounded drop-shadow-lg'>
                     <Typography color="white" variant="h5" align='center' className="pt-3">What Payment options are accepted?</Typography>
