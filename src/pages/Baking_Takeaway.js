@@ -47,7 +47,7 @@ export default function Takeaway() {
                             <Typography>Even our chocolate chip cookie!</Typography>
                         </Typography>
                         <Typography color="white" variant="h6" className="pt-3" align='center'>You can also order one or more of our coffee selection! This includes drinks such as:
-                            <Typography>The Lattee!</Typography>
+                            <Typography>The Latte!</Typography>
                             <Typography>The Mocha!</Typography>
                             <Typography>The Cappuccino!</Typography>
                             <Typography>Even the Iced Espresso!</Typography>
